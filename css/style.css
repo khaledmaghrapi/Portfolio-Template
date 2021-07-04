@@ -1,0 +1,662 @@
+body {
+  line-height: 1.7;
+  font-family:Lucida Sans Unicode;
+  }
+
+
+/* start header */
+
+header{
+	width: 100%;
+	height: 800px;
+	background-image: url(../images/image_1.jpg);
+	background-size: 100%;
+	margin-bottom: 30px;
+	color: #fff;
+	position: relative;
+	z-index: 100;
+}
+header::before{
+	content: " ";
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	background-color: black;
+	opacity: .6;
+	z-index: -1;
+}
+.navbar{
+	z-index: 100;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding-top: 30px;
+	text-transform: uppercase;
+}
+.navbar a{
+	color: #fff;
+	letter-spacing: 5px;
+	font-weight: 200;
+	text-decoration: none;
+}
+.navbar .nav{
+	margin-right: 100px;
+	font-size: 13px;
+}
+.navbar .nav a{
+	padding: 0 15px;
+}
+.navbar >a{
+	border: 2px solid #fff;
+	padding: 5px 25px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+header .navbar{
+	color: #fff;
+}
+
+header .content{
+	margin: 150px auto;
+	text-align: center;
+	width: 80%;
+}
+.content h1{
+	font-size: 60px;
+	font-weight: 500;
+	padding-bottom: 30px;
+}
+.content h1 span{
+	font-weight: 900;
+	font-size: 90px;
+}
+header .content p{
+	width: 80%;
+	line-height: 200%;
+	margin: 0 auto;
+	text-align: center;
+	color: #777;
+	font-size: 19px;
+	margin-bottom: 50px;
+}
+header .content a{
+	color: #fff;
+	text-decoration: none;
+	background-color: #57D131;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	border-radius: 30px;
+}
+header .content a:hover{
+	background-color: #37D131;
+}
+
+/* end header */
+
+/* start about me */
+.about-me{
+	margin-top: 150px;
+	margin-bottom: 200px;
+}
+.about-me .image{
+	width: 650px;
+	height: 752px;
+}
+.about-me .image img{
+	width: 100%;
+}
+.about-me .content{
+	padding: 200px 0 0 70px;
+}
+.about-me .content h2:before{
+	content: "";
+	height: 3px;
+	width: 70px;
+	margin-bottom: 20px;
+	background: #57D131;
+	display: block;
+}
+.about-me .content h2{
+	text-transform: capitalize;
+	color: #6C757D;
+	margin-bottom: 50px;
+}
+.about-me .content h2 span{
+	color: #2C3E50;
+	font-size: 33px;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+.about-me .content p{
+	color: #999;
+	margin-bottom: 30px;
+}
+.about-me .content a{
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+.about-me .content .hire{
+	background-color: #57D131;
+	padding: 7px 25px;
+	border-radius: 30px;
+}
+.about-me .content .hire:hover{
+	background-color: #37D131;
+}
+.about-me .content .cv{
+	background-color: #6C757D;
+	padding: 7px 25px;
+	border-radius: 30px;
+}
+.about-me .content .cv:hover{
+	background-color: #3C757D;
+}
+/* end about me */
+
+/* start skills */
+.skills  h2{
+	text-transform: capitalize;
+	color: #6C757D;
+	margin-bottom: 50px;
+}
+.skills h2 span{
+	color: #2C3E50;
+	font-size: 33px;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+
+.skills h2{
+	margin-top: 50px;
+}
+.skills h2:before{
+	content: "";
+	height: 3px;
+	width: 70px;
+	margin-bottom: 20px;
+	background: #57D131;
+	display: block;	
+}
+.skills .progress-section{
+	margin-left: 100px;
+}
+.skills .progress-section .progress{
+	height: 5px;
+}
+.skills .progress-section h3{
+	margin-top: 40px;
+	font-size: 20px;
+	color: #6C757D;
+}
+.skills .progress-section .progress-bar{
+	height: 5px;
+	background-color: #57D131;
+	width: 85%;
+}
+
+.skills .progress-section .progress-bar span{
+	background-color: #57d131;
+	font-size: 10px;
+	line-height: 10px;
+	padding: 2px 4px;
+	border-radius: 2px;
+	color: #fff;
+}
+.skills .progress-section .progress-bar span::after{
+	content: " ";
+	border: solid transparent;
+	border-bottom-color: #57d131;
+	border-width: 5px;
+    margin-left: -5px;
+}
+.skills .progress-section .progress-bar .progress1{
+	
+    position: absolute;
+    bottom: 285px;
+    right: 112px; 
+}
+
+.skills .progress-section .progress-bar .progress1::after{
+	top:-10px;
+    left: 50%;
+    position: absolute;
+}
+.skills .progress-section .progress-bar .progress2{
+	
+    position: absolute;
+    bottom: 208px;
+    right: 18px; 
+}
+
+.skills .progress-section .progress-bar .progress2::after{
+	top:-10px;
+    left: 50%;
+    position: absolute;
+}
+.skills .progress-section .progress-bar .progress3{
+	
+    position: absolute;
+    bottom: 130px;
+    right: 25px; 
+}
+
+.skills .progress-section .progress-bar .progress3::after{
+	top:-10px;
+    left: 50%;
+    position: absolute;
+}
+.skills .progress-section .progress-bar .progress4{
+	
+    position: absolute;
+    bottom: 53px;
+    right: 90px; 
+}
+
+.skills .progress-section .progress-bar .progress4::after{
+	top:-10px;
+    left: 50%;
+    position: absolute;
+}
+.skills .progress-section .progress-bar .progress5{
+	
+    position: absolute;
+    bottom: -23px;
+    right: 60px; 
+}
+
+.skills .progress-section .progress-bar .progress5::after{
+	top:-10px;
+    left: 50%;
+    position: absolute;
+}
+/* end skills */
+
+/* start Client Testimonial */
+.Client-Testimonial{
+	margin-top: 150px;
+	padding: 100px 0;
+	background-color: #F8F9FA;
+}
+.Client-Testimonial .row{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 70px;
+}
+.Client-Testimonial h2:before{
+	content: "";
+	height: 3px;
+	width: 70px;
+	background: #57D131;
+	display: block;
+	margin: 20px auto;
+}
+.Client-Testimonial h2{
+	text-transform: capitalize;
+	color: #6C757D;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.Client-Testimonial h2 span{
+	color: #2C3E50;
+	font-size: 33px;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+.Client-Testimonial .image{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	border:5px solid #fff;
+	box-shadow: 5px 5px 10px #ccc;
+}
+.Client-Testimonial .image img{
+	width: 100%;
+	border-radius: 50%;
+}
+.Client-Testimonial .comment{
+	background-color: #fff;
+	height: 200px;
+	border-radius: 7px;
+	margin-left: -60px;
+	padding: 30px;
+	box-shadow: 5px 5px 20px #ccc;
+	position: relative;
+}
+.Client-Testimonial .comment::before{
+	content: "";
+    border: 1px solid red;
+    position: absolute;
+    left: -15px;
+    border-width: 0 20px 20px 0;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+}
+.Client-Testimonial .comment p{
+	color: #999;
+	font-size: 14px;
+}
+.Client-Testimonial .comment h4{
+	color: #2C3E50;
+	font-size: 15px;
+}
+.Client-Testimonial .comment h4 span{
+	color: #57D131;
+}
+/* end Client Testimonial */
+
+/* start my services */
+.my-services{
+	margin-top: 100px;
+	text-align: center;
+}
+.my-services .row{
+	margin-bottom: 70px;
+}
+.my-services h2:before{
+	content: "";
+	height: 3px;
+	width: 70px;
+	background: #57D131;
+	display: block;
+	margin: 20px auto;
+}
+.my-services h2{
+	text-transform: capitalize;
+	color: #6C757D;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.my-services h2 span{
+	color: #2C3E50;
+	font-size: 33px;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+.my-services .icon{
+	background-color: #57D131;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+.my-services .icon i{
+	line-height: 100px;
+	font-weight: bold;
+	font-size: 40px;
+	color: #2C3E50;
+}
+.my-services h3{
+	color: #555;
+	font-size: 18px;
+}
+.my-services p{
+	color: #999;
+	font-size: 15px;
+}
+.my-services a{
+	color: #57D131;
+	font-size: 15px;
+	text-decoration: none;
+	transition: all .4s ease;
+}
+.my-services a:hover{
+	margin-right: 20px;
+}
+.my-services i{
+	color: #57D131;
+}
+/* end my services */
+
+/* start statistics */
+.statistics{
+	margin-top: 150px;
+}
+.statistics .row{
+	margin-bottom: 100px;
+}
+.statistics .image {
+	width: 100%;
+}
+.statistics .image img{
+	width: 100%;
+}
+.statistics h3{
+	color: #555;
+	font-size: 30px;
+}
+.statistics p{
+	color: #999;
+	font-size: 15px;
+	padding: 20px 0;
+}
+.statistics .points i{
+	color: #57D131;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.statistics .points a{
+	color: #798a9a;
+	font-size: 13px;
+	text-decoration: none;
+}
+/* end my statistics */
+
+/* start portfolio */
+.portfolio{
+	text-align: center;
+}
+.portfolio .row{
+	margin-bottom: 130px;
+}
+.portfolio h2:before{
+	content: "";
+	height: 3px;
+	width: 70px;
+	background: #57D131;
+	display: block;
+	margin: 20px auto;
+}
+.portfolio h2{
+	text-transform: capitalize;
+	color: #6C757D;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.portfolio h2 span{
+	color: #2C3E50;
+	font-size: 33px;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+.portfolio .nav{
+	margin: 40px 0;
+	display: flex;
+	justify-content: center;
+}
+.portfolio .nav a{
+	color: #798a9a;
+}
+.portfolio .nav a:hover{
+	color: #57D131;
+}
+.portfolio .nav .active{
+	color: #57D131;
+}
+.portfolio .section{
+	width: 349px;
+	height: 349px;
+	transition: all .4s ease;
+}
+.portfolio .section:hover{
+	box-shadow: 5px 5px 20px #ccc;
+}
+.portfolio .section img{
+	width: 100%;
+}
+.portfolio .section h3{
+	color: #798a9a;
+	font-size: 18px;
+	padding: 20px 0 10px 0;
+}
+.portfolio .section p{
+	color: #ccc;
+	font-size: 13px;
+}
+/* end portfolio */
+
+/* start resume */
+.resume{
+	background-color: #F8F9FA;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.resume .row{
+	margin-bottom: 30px;
+}
+.resume h2:before{
+	content: "";
+	height: 3px;
+	width: 70px;
+	background: #57D131;
+	display: block;
+	margin: 20px auto;
+}
+.resume h2{
+	text-transform: capitalize;
+	color: #6C757D;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.resume h2 span{
+	color: #2C3E50;
+	font-size: 33px;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+.resume .education h1, .experience h1{
+	color: #6C757D;
+	text-align: left;
+}
+.resume .content{
+	background-color: #fff;
+	padding: 50px;
+	width: 100%;
+	transition: all .4s ease;
+}
+.resume .content:hover{
+	border:5px solid #67D445;
+}
+.resume .content i ,span{
+	color: #999;
+	font-size: 13px;
+}
+.resume .content h3{
+	color: #444;
+	font-size: 20px;
+}
+.resume .content p{
+	color: #999;
+	font-size: 15px;
+}
+.resume .content h4{
+	color: #444;
+	font-size: 17px;
+}
+/* end resume */
+
+/* start blog */
+.blog{
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+.blog h2:before{
+	content: "";
+	height: 3px;
+	width: 70px;
+	background: #57D131;
+	display: block;
+	margin: 20px auto;
+}
+.blog h2{
+	text-transform: capitalize;
+	color: #6C757D;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.blog	 h2 span{
+	color: #2C3E50;
+	font-size: 33px;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+.blog .row{
+	perspective: 200;
+}
+.blog .card .image{
+	width: 349px;
+	height: 262px;
+}
+.blog .card .image img{
+	width: 100%
+}
+.blog .card .content{
+	padding:30px; 
+}
+.blog .card .content a{
+	color: #444;
+	text-decoration: none;
+	transition: all .2s ease;
+	padding-right: 10px;
+}
+.blog .card .content a:hover{
+	color:  #57D131;
+}
+.blog .card .content p{
+	color: #999;
+}
+.blog .the-card{
+	transition: all .5s ease;
+}
+.blog .the-card :hover{
+	transform: scaleZ(2);
+	box-shadow: 5px 5px 20px #ccc;
+}
+/* end blog */
+
+/*start footer */
+footer{
+	background-color: #F8F9FA;
+	padding: 30px 0;
+}
+footer .social{
+	display: flex;
+	justify-content: center;
+	margin: 30px 0;
+	text-align: center;
+}
+footer .social .link{
+	width: 70px;
+	height: 70px;
+	border:1px solid #57D131;
+	border-radius: 50%;
+	margin: 10px 20px;
+	transition: all .6s ease;
+}
+footer .social .link:hover{
+	transform: rotate(360deg); 
+}
+footer .social .link a{
+	line-height: 70px;
+	font-size: 30px;
+	color: #57D131;
+}
+footer p{
+	color: #798A9A;
+	text-align: center;
+}
+footer p span{
+	color:  #57D131;
+	font-size: 20px;
+}
+/* end footer */
